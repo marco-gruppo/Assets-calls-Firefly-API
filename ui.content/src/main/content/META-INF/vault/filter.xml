@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/costacruise" mode="merge"/>
+    <filter root="/content/costacruise" mode="merge"/>
+    <filter root="/content/dam/costacruise" mode="merge">
+        <exclude pattern="/content/dam/costacruise(/.*)?"/>
+        <include pattern="/content/dam/costacruise/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/costacruise/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/costacruise" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/costacruise" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/costacruise" mode="merge"/>
+    <filter root="/content/dam/costacruise/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/costacruise/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/costacruise/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/costacruise/af_model_sample.json" mode="merge"/>
+</workspaceFilter>

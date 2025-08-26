@@ -1,0 +1,30 @@
+{
+  "supportscredentials":false,
+  "supportedmethods":[
+    "GET",
+    "HEAD",
+    "POST"
+  ],
+  "alloworiginregexp":[
+    "https://.*\\.csb\\.app",
+    "https://cdpn\\.io",
+    "https://.*\\.aem\\.page",
+    "https://.*\\.aem\\.live",
+    "https://localhost:.*",
+    "https://.*\\.adobeaemcloud\\.com"
+  ],
+  "maxage": 1800,
+  "supportedheaders":[
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers"
+  ],
+  "allowedpaths":[
+    "/graphql/execute.json/.*",
+    "/content/.*",
+    "/conf/.*"
+  ]
+}
